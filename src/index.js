@@ -12,7 +12,7 @@ app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'resource/views'));
 
 //public
-app.use(express.static("src/resource/public"))
+app.use(express.static("src/public"))
 
 //http logger
 app.use(morgan("combined"));
