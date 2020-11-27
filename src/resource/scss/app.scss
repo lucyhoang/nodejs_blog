@@ -1,0 +1,15 @@
+@import "variable";
+
+.header {
+    background-color: $color-red;
+    color: $color-blue;
+}
+
+h1 {
+    color: $color-red;
+}
+
+h2 {
+    color: $color-blue;
+}
+
